@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* sharing css */
+.container {
+  width: 71%;
+  max-width: 1363px;
+  margin: 0 auto;
+}
+
+.work-sans {
+  font-family: 'Work Sans', sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* main css */
+header {
+  width: 100%;
+  background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 865px;
+}
+
+#banner .banner-content {
+  max-width: 525px;
+  text-align: right;
+}
+
+#banner .banner-content h1 {
+  font-size: 65px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+#banner .banner-content p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #444343;
+  margin-bottom: 32px;
+}
+
+#banner .banner-content .btn {
+  background-color: #f15b22;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 25px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
